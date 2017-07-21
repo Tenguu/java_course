@@ -12,11 +12,28 @@ public class InteractRunner {
 				String first = reader.next();
 				System.out.println("Enter second arg : ");
 				String second = reader.next();
-				calc.add(Integer.valueOf(first), Integer.valueOf(second));
+				System.out.println("Select functuion : + , - , / , *");
+				String third = reader.next();
+				if (third.equals("-")){
+				calc.minus(Integer.valueOf(first), Integer.valueOf(second));
 				System.out.println("Result : " + calc.getResult());
 				calc.cleanResult();
+				} else if (third.equals("+")){
+				calc.plus(Integer.valueOf(first), Integer.valueOf(second));
+				System.out.println("Result : " + calc.getResult());
+				calc.cleanResult();
+				} else if (third.equals("*")){
+				calc.umnogenie(Integer.valueOf(first), Integer.valueOf(second));
+				System.out.println("Result : " + calc.getResult());
+				} else {
+				System.out.println(third);
+				System.out.println("Неверно выбранна функция");
+				}
+				//System.out.println("Result : " + calc.getResult());
+				//calc.cleanResult();
 				System.out.println("Exit : yes/no");
 				exit = reader.next();
+				
 			}
 		} finally {
 			reader.close();
