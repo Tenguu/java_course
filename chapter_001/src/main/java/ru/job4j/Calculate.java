@@ -4,8 +4,8 @@ package ru.job4j;
  * Calculate.
  *
  * @author Vladimir Mailyanc (seo@kts.by)
- * @version $Id.1$
- * @since 0.1
+ * @since 27.07.2017
+ * @version $0.01$
  */
 public class Calculate {
 	 /**
@@ -13,7 +13,6 @@ public class Calculate {
      * @param args - args.
      */
     public static void main(String[] arg) {	
-      //Вывод надписи на экран
-        System.out.println("Hello world!");
+        System.out.println("Hello World");
       }
 }
