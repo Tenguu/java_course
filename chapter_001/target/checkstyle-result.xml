@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Java/java_course/chapter_001/src/main/java/ru/job4j/Calculate.java">
+<error line="13" column="8" severity="error" message="Unused @param tag for &apos;args&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="15" column="38" severity="error" message="Expected @param tag for &apos;arg&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Java/java_course/chapter_001/src/main/java/ru/job4j/package-info.java">
+</file>
+<file name="/Java/java_course/chapter_001/src/test/java/ru/job4j/CalculateTest.java">
+</file>
+<file name="/Java/java_course/chapter_001/src/test/java/ru/job4j/package-info.java">
+</file>
+</checkstyle>
