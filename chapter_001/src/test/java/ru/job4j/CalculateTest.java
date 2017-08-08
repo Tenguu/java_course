@@ -10,7 +10,7 @@ import static org.junit.Assert.assertThat;
 * Test.
 *
 * @author Vladimir Mailyanc (seo@kts.by)
-* @since 27.07.2017
+* @since 27.07.2017 f
 * @version $0.01$
 */
 public class CalculateTest {
