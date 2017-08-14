@@ -2,7 +2,14 @@ package ru.job4j;
 
 public class Calculator {
 
-    public static void main(String[] arg) {	
-        System.out.println("Calculator");
+    private double rezult;
+
+    public void add(double first, double second) {
+        this.rezult = first + second;
       }
+
+    public double getRezult(){
+        return this.rezult;
+    }
+
 }

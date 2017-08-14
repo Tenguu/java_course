@@ -9,6 +9,6 @@
 *.ear
 
 #virtual machine
-.idea
+*.idea
 target
 *.iml
