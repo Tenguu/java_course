@@ -12,7 +12,7 @@ public class Triangle {
     }
 
     public double distance(Point left, Point right) {
-        return Math.sqrt(Math.pow(left.getX() - right.getX(), 2) + Math.pow(left.getY() - right.getY(), 2));
+        return Math.sqrt(Math.pow(right.getX() - left.getX(), 2) + (Math.pow(right.getY() - left.getY(), 2)));
     }
     public double period(double ab, double ac, double bc) {
         return (ab + ac + bc) / 2;
@@ -30,7 +30,7 @@ public class Triangle {
         return rsl;
     }
     private boolean exist(double ab, double ac, double bc) {
-        return false;
+        return (ab + ac > bc || ab + bc > ac || ac + bc > ab);
     }
 }
 
